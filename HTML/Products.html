@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <!--Starting of head section-->
+  <head>
+    <!--meta data about the below html document-->
+    <meta charset="UTF-8"/>
+    <meta http-equi="'X-UA-compatible" content="'IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/Products.css">
+    <!--Opening of internal CSS-->
+    <style>
+      /* CSS for the buynow button*/
+      button{
+        width:350px;
+        height:50px;
+        border-radius: 0px;
+        border:none;
+        font-size: 20px;
+        background-color:rgb(189, 178, 178);
+      }
+      button:hover{
+        opacity: 0.8;
+        transition-duration: 0.15s;
+        cursor:pointer;
+      }
+      button:active{
+        opacity:0.5;
+        transition-duration: 0.15s;    
+      }
+      p{
+        font-style:oblique;
+        font-size: large;
+      }
+   
+      /*CSS for navigation*/
+      .logo {
+        margin: 10px auto;
+        width: 70%;
+        text-align: center;
+        font-family: Bradley HAND ITC;
+        font-size: 25px;
+      }
+
+      .links {
+        width: 100%;
+        background-color: #5AAD66;
+      }
+
+      .links-1 {
+        width: 50%;
+        margin: 20px auto;
+        display: flex;
+        padding: 18px;
+        justify-content: space-around;
+      }
+
+      .links-1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+
+      .links-1 a:hover {
+        text-decoration: 2px underline darkgreen;
+        font-size:30px;
+      }
+    </style>
+    <!-- Internal Javascript for buynow button-->
+    <script>
+      function firstfunction(){
+        alert('thankyou for your purchase!');
+      }
+    </script>
+ </head>
+
+  <body> 
+    <!--Opening of header-->
+    <header>
+      <!--div for logo-->
+      <div class="logo">
+        <h1>GreeNary &#127811; </h1>
+      </div>
+      <!--div for navigation-->
+      <div class="links">
+        <div class="links-1">
+          <a href="../homepage.html">Home</a>
+          <a href="../HTML/Products.html">Products</a>
+          <a href="../HTML/blog.html">Blog</a>
+          <a href="../HTML/research.html">Research</a>
+          <a href="../HTML/contact.html">Contact Us</a>
+          <a href="../HTML/AbouUs.Html">About Us</a>
+        </div>
+      </div>
+    
+    </header>        
+  
+    <h1 style="font-style:oblique"><u>BONSAI GROWS WITH LOVE</u></h1>
+    <br>
+    <h1><i>OUR PRODUCTS</i></h1>
+    <br>
+    <input type="text" placeholder="Search for Bonsai" style="font-size: 24px; height: 40px; width:400px;" >
+    <br>
+    <br>
+    <!--div for the first row of bonsai plants-->
+    <div class="first-div">
+      <!--div for Product 1-->
+      <div class="image-div">
+        <div ><a href="../images/elmbonsai.jpg"><img src="../images/elmbonsai.jpg" class="image" ></a></div>
+        <div class="info-div">
+          <h2>Elm Bonsai</h2>
+          <p> Elm bonsai trees are probably the most common kind of bonsai,generally the first one most people will own.<br><br>
+          <i><strike>Price : Rs.2000</strike> <br> Discounted Price : Rs.<b>1500</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+  
+      <!--div for Product 2-->
+      <div class="image-div">
+        <div><a href="../images/bonsaimaple.jpg"><img src="../images/bonsaimaple.jpg"class="image"></a></div>
+        <div class="info-div"><h2>Bonsai Maple</h2><p> This plant is called maple bonsai.Maple Bonsai Trees are well known for their unique leaf shape.<br><br>
+          <i><strike>Price : Rs.3700</strike> <br> Discounted Price : Rs.<b>3500</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+
+      <!--div for Product 3-->
+      <div class="image-div">
+        <div><a href="../images/bonsaipine.jpg"><img src="../images/bonsaipine.jpg" class="image"></a></div>
+        <div class="info-div">
+          <h2>Bonsai Pine</h2>
+          <p>This plant is called Bonsai Pine.Pine bonsai are outdoor plants.They should be outside the whole year.<br><br><i><strike>Price : Rs.7000</strike> <br> Discounted Price : Rs.<b>6800</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+    </div>
+     <!--div for the second row of bonsai plants-->           
+    <div class="second-div">
+      <!--div for Product 4-->
+      <div class="image-div">
+        <div><a href="../images/bougainvilleabonsai.jpg"><img src="../images/bougainvilleabonsai.jpg" class="image"></a></div>
+        <div class="info-div">
+          <h2>Bougainvillea Bonsai</h2>
+          <p>Bougainvilleas are rapid growing, tolerate pruning very well and are well suited for bonsai styles.<br><br>
+          <i>Price : Rs.<b>9000</b> </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+
+      <!--div for Product 5-->
+      <div class="image-div">
+        <div><a href="../images/juniper.jpg"><img src="../images/juniper.jpg" class="image"></a></div>
+        <div class="info-div"><h2> Juniper Bonsai</h2><p>This is a Juniper Bonsai.It is an evergreen coniferous tree,a very  popular choice for bonsai.<br><br>
+          <i>Price : Rs.<b>7700</b> </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+
+      <!--div for Product 6-->
+      <div class="image-div" >
+        <div ><a href="../images/moneytreebonsai.jpg"><img src="../images/moneytreebonsai.jpg" class="image"></a></div>
+        <div class="info-div"> 
+          <h2>Money Tree Bonsai</h2>
+          <p>The Money Tree bonsai is a miniature tree characterized by multiple intertwining trunks.<br><br>
+          <i><strike>Price : Rs.2000</strike><br> Discounted Price : Rs.<b>1800</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+    </div>
+    <!--div for the third row of bonsai plants-->  
+    <div class="second-div">
+      <!--div for Product 7-->
+      <div class="image-div">
+        <div><a href="../images/img 4.jpg"><img src="../images/img 4.jpg" class="image"></a></div>
+        <div class="info-div">
+          <h2>Chinese Elm Bonsai</h2>
+          <p>The Chinese Elm is indigenous to China and south-east Asia. In its native environment it can be a mighty tree reaching heights of up to 80 feet (25 meter). It develops a fine branch ramification with small leaves, which makes it a very suitable Bonsai plant.<br><br>
+          <i><strike>Price : Rs.12000 </strike><br> Discounted Price : Rs.<b>8500</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+      <!--div for Product 8-->
+      <div class="image-div">
+        <div><a href="../images/img 1.jpg"><img src="../images/img 1.jpg" class="image"></a></div>
+        <div class="info-div"><h2> Shohnin Chinese Elm Bonsai</h2><p>Characterized by its leaf shape and stem development, the Shohin Chinese Elm Bonsai tree is a perfect addition of style and grace to any coffee table. It is great natural air purifier that treats harmful chemicals like toluene in air and makes the air breathable<br><br>
+          <i>Price : Rs.<b>14000</b>  </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+      <!--div for Product 9-->
+      <div class="image-div" >
+        <div ><a href="../images/img 5.jpg"><img src="../images/img 5.jpg" class="image"></a></div>
+        <div class="info-div"> 
+          <h2>Grand Chinese Elm Bonsai</h2>
+          <p>Characterized by its leaf shape and stem development, the Chinese Elm is a great tree for beginners and intermediate enthusiasts who want to practice their clip-and-grow pruning. Easy to train and easy to shape with vigorous branch and root growth.<br><br>
+          <i>Price : Rs.<b>19000 </b><br> </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>             
+    <h1><i>OUR EQUIPMENTS</i></h1>
+    <br>
+    <input type="text" placeholder="Search for Equipments" style="font-size: 24px; height: 40px; width:400px;" >
+    <br>
+    <br>
+    <br>
+    <!--div for the first row of equipments-->  
+    <div class="first-div">
+      <!--div for Equipment 1-->
+      <div class="image-div">
+        <div><a href="../images/watering-can.jpg"><img src="../images/watering-can.jpg" class="image"></a> </div>
+        <div class="info-div">
+          <h2>Watering Can</h2>
+          <p>Watering can,also known as watering pot or sprinkling can,is used to water the plants.<br><br>
+          <i>Price : Rs.<b>1000</b> </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+      <!--div for Equipment 2-->
+      <div class="image-div">
+        <div><a href="../images/shovel.jpg"><img src="../images/shovel.jpg" class="image"></a></div>
+        <div class="info-div">
+          <h2>Shovel</h2>
+          <p>Shovel is a tool resembling a spade with a broad blade, used for moving material of plants.<br><br><i>Price:Rs. 600 </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+      <!--div for Equipment 3-->
+      <div class="image-div">
+        <div> <a href="../images/rake.jpg"><img src="../images/rake.jpg" class="image"></a> </div>
+        <div class="info-div">
+          <h2>Rake</h2>
+          <p>A rake is a type of gardening tool used for scooping or gathering materials.<br><br>
+          <i><strike>Price : Rs.3000 </strike><br> Discounted Price : Rs.<b>2500</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+    </div>
+
+    <!--div for the second row of equipments-->  
+    <div class="second-div">
+      <!--div for Equipment 4-->
+      <div class="image-div" >
+        <div> <a href="../images/sickle.jpg"><img src="../images/sickle.jpg"class="image"></a></div>
+        <div class="info-div">
+          <h2>Sickle</h2>
+          <p>Sickle is an agricultural tool used for harvesting, or reaping.<br><br><i>Price:Rs. 2500 </i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+      <!--div for Equipment 5-->
+      <div class="image-div" >
+        <div><a href="../images/garden-gloves.png"><img src="../images/garden-gloves.png"class="image"></a></div>
+        <div class="info-div">
+          <h2>Garden Gloves</h2>
+          <p>Garden Gloves are used to protect our hand from harmful pesticides.<br><br><i><strike>Price : Rs.2300</strike> <br> Discounted Price : Rs.<b>2000</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</butto>
+        </div>
+      </div>
+      <!--div for Equipment 6-->
+      <div class="image-div" >
+        <div><a href="../images/pruningshear.jpg"><img src="../images/pruningshear.jpg" class="image"></a></div>
+        <div class="info-div">
+          <h2>Pruning Shear</h2>
+          <p>Pruning Shear are the garden tools used to cut branches.<br><br><i><strike>Price : Rs.300</strike> <br> Discounted Price : Rs.<b>250</b></i></p>
+          <button onclick="firstfunction()">Buy Now!</button>
+        </div>
+      </div>
+    </div>
+  <!--Start of footer section-->
+    <footer>
+      <div class="wrapper-footer">
+        <div class="links-division">
+          <a href="../homepage.html">Home</a>
+          <a href="../HTML/Products.html">Products</a>
+          <a href="../HTML/blog.html">Blog</a>
+          <a href="../HTML/research.html">Research</a>
+          <a href="../HTML/contact.html">Contact Us</a>
+          <a href="../HTML/AbouUs.Html">About Us</a>
+        </div>
+            
+        <div class="content">
+          <p>
+            Welcome to Bonsai collection. From a small pot to big tree this
+            can be yours .So hurry up and buy now. Offer limited.
+          </p>
+        </div>
+            
+        <div class="social-medias">
+          <a href="https://twitter.com/GreenNary2" target="_blank"><img src="../images/twitter.png" alt="" /></a>
+          <a href="https://instagram.com/nikitaadhikari46?igshid=Mzc0YWU1OWY=" target="_blank"><img src="../images/instagram.png" alt="" /></a>
+          <a href="https://www.facebook.com/profile.php?id=100090146372982" target="_blank"><img src="../images/facebook.png" alt="" /></a>
+        </div>
+            
+      </div>
+            
+    </footer>    
+    <!--End of footer section-->       
+  </body>
+</html>

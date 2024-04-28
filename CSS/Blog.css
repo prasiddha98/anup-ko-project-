@@ -1,0 +1,45 @@
+/*CSS for body*/
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;      
+     
+}
+  /*CSS for Navigation section*/
+.logo {
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+    font-family: Bradley HAND ITC;
+    font-size: 25px;
+}
+
+.links {
+    width: 100%;
+    background-color: #5AAD66;
+    border-radius: 4px;
+}
+
+.links-1 {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    padding: 18px;
+    justify-content: space-around;
+}
+
+.links-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.links-1 a:hover {
+    font-size: 30px;
+    text-decoration: 2px underline darkgreen;
+}
+
+  
+
+
+
+
